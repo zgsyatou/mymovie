@@ -1,0 +1,134 @@
+ul.movie-types {
+    list-style-type: none;
+}
+div.movie:not(:last-child){
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+div.movie h3 {
+    margin-top: 0.5em;
+}
+div.movie p.movie-info {
+    margin-bottom: 0;
+}
+div.paginator{
+    text-align: center;
+}
+.movie-info-description {
+    list-style-type: none;
+    margin-bottom: 1em;
+    width: 660px;
+    margin-left: 22px;
+    margin-top: 108px; 
+}
+.movie-info-description div{
+    margin-top: 10px;
+}
+ul.movie-info-description li{
+    display: inline-block;
+    margin-right: 2em;
+}
+div.movie-content{
+    text-indent: 2em;
+    margin-bottom: 2em;
+    margin-top: 28px;
+    margin-left: 36px;
+}
+div.movie-more{
+    margin-top: 1.5em;
+    display: flex;
+    align-content: center;
+    margin-left: 58px;
+}
+div.comment-zone{
+    margin-top: 2em;
+}
+h3.comment-zone-title{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5em;
+}
+div.django-ckeditor-widget {
+        width: 100%;
+}
+div.comment {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+div.reply {
+    margin-left: 2em;
+}
+div#reply_content_container {
+    display: none;
+    padding: 1em 1em 0.5em;
+    overflow: hidden;
+    border-bottom: none;
+    border: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+
+div.like {
+    color: #337ab7;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 0.3em;
+}
+
+div.like .active {
+    color: #f22;
+}
+
+div.collect {
+    color: #337ab7;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 0.3em;
+    margin-left: 38px;
+}
+
+div.collect .active {
+    color: #f22;
+}
+
+.first {
+    display: flex;
+    margin-top: 20px; 
+}
+
+div.uploader {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 126px;
+}
+
+div.rate{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.rate div {
+    height: 40px;
+    width: 164px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.like-comment {
+    margin-left: 60px;
+}
+
+div.rate .db{
+    background: #358797;
+    border-radius: 20px;
+    color: #fafafa;
+}
+
+div.rate .imdb {
+    background: #5ba216;
+    border-radius: 20px;
+    color: #fafafa;
+}

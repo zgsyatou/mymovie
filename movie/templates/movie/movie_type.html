@@ -1,0 +1,10 @@
+{% extends 'movie/movie_list.html' %}
+
+{# 页面标题 #}
+{% block title %}{{ movie_type.type_name }}{% endblock %}
+
+{% block movie_type_title %}
+        {{ movie_type.type_name }} (一共有{{ movielist | length }} 篇电影)
+        <a href="{% url 'movie_list' %}">查看全部电影</a>
+{% endblock %}
+
